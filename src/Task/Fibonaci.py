@@ -7,9 +7,9 @@ num = int(input("enter a number\n"))
 fib_series = [0, 1]
 
 if num <= 0:
-    print("Sorry, factorial does not exist for negative numbers")
+    print("Sorry, fib_series does not exist for negative numbers")
 elif num == 0:
-    print("The factorial of 0 is 0")
+    print("The fib_series of 0 is 0")
 else:
     for i in range(2, num):
         fib_series.append(fib_series[i-1] + fib_series[i-2])
